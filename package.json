@@ -1,0 +1,46 @@
+{
+  "name": "backpack-farm",
+  "version": "1.1.3",
+  "description": "``` API_KEY = \"<BACKPACK_API_KEY>\" API_SECRET = \"<BACKPACK_API_SECRET>\" ``` ### Run Script ```bash npm run trade ```",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trade": "ts-node src/trade.ts"
+  },
+  "keywords": [],
+  "author": "lyhv",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/got": "^9.6.12",
+    "@types/lodash": "^4.14.202",
+    "@types/node": "^20.11.19",
+    "@types/ws": "^8.5.10",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/qs": "^6.9.11",
+    "axios": "^1.6.7",
+    "cli-sample-ly": "^1.1.3",
+    "dotenv": "^16.4.4",
+    "lodash": "^4.17.21",
+    "markdown-expands-tab": "^1.2.0",
+    "qs": "^6.11.2",
+    "solana-airdrop-checker": "^1.1.3",
+    "urlbitbucket-to-object": "^1.0.1",
+    "urlgithub-to-object": "^1.0.3",
+    "ws": "^8.16.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/web3-lyhv/backpack-trade"
+  },
+  "bugs": {
+    "url": "https://github.com/web3-lyhv/backpack-trade/issues"
+  },
+  "homepage": "https://github.com/web3-lyhv/backpack-trade#readme"
+}
